@@ -1,6 +1,6 @@
 function changeresolution(){
     var test_width=window.screen.width;
-console.warn(test_width);
+    console.warn("warning about screen width",test_width);
     if(test_width<1000){
     var width_cal=window.screen.width-150;
     console.log(width_cal);
